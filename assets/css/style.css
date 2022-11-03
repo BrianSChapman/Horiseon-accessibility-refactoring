@@ -26,17 +26,22 @@ body {
 }
 /* Links all function properly. Need to be repositioned */
 
-.navigation {
-    list-style-type: none; position: relative ;
-    display: <display-listitem>;
-    margin-left: 25px; color: #ffffff; font-size: 20px; text-align:right; 
+nav { text-align: right;  display: inline; padding: 0px 20px;
+    margin-left: 25px; color: #ffffff; font-size: 20px; text-align:right;
+
+
+}
+
+li {
+    display: inline; padding: 0px 20px;
+   
 
 }
 
 a {
     color: #ffffff;
     text-decoration: none; list-style-type: none;
-    display: -moz-inline-box 
+    display: inline
     margin-left: 25px; color: #ffffff; font-size: 20px; text-align:right; 
 }
 
@@ -45,7 +50,7 @@ p {
 }
 /* Hero image ID being used for proper sizing and format on page */
 #hero {
-    height: 1000px;
+    height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-size: cover;
