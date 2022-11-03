@@ -49,7 +49,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* Formatting all h2 and h3 headings throughout page (Minus footer) */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -69,17 +69,8 @@ h3 {
     background-size: cover;
     background-position: center;
 }
-/* This is for proper left-justification of two photos in main sections */
-#float-left {
-    float: left;
-    margin-right: 25px;
-}
-/* This is for proper right-justification of one photo in main section */
-#float-right {
-    float: right;
-    margin-left: 25px;
-}
 
+/* All the structuring & styling for the central cards */
 section {
     width: 75%;
     display: inline-block;
@@ -91,7 +82,7 @@ section {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* All the structuring * styling for the Aside area */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -108,60 +99,16 @@ section {
     margin: 10px auto;
     max-width: 150px;
 }
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+/* Sizing & format for left-justified images in the main section */
+.search-engine-optimization img, .social-media-marketing img {
+    max-height: 200px; float: left;
+    margin-right: 25px;
 }
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
+/* Sizing & format for single right-justified image in main section */
 .online-reputation-management img {
-    max-height: 200px;
-}
+    max-height: 200px; float: right;
+    margin-left: 25px;
 
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 .footer {
     padding: 30px;
