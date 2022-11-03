@@ -94,11 +94,7 @@ section {
     background-color: #2589bd; margin-bottom: 32px;
     color: #ffffff;
 }
-.benefit-image {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+
 /* Sizing & format for left-justified images in the main section */
 .search-engine-optimization img, .social-media-marketing img {
     max-height: 200px; float: left;
@@ -108,6 +104,32 @@ section {
 .online-reputation-management img {
     max-height: 200px; float: right;
     margin-left: 25px;
+
+  
+aside {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+ } 
+  
+    #benefit-img {
+        display: block;
+        margin: 10px auto;
+        max-width: 150px;
+    }
+    
+    .benefit-brand img {
+        display: block;
+        margin: 10px auto;
+        max-width: 150px;
+    }
+    
+    .benefit-cost img {
+        display: block;
+        margin: 10px auto;
+        max-width: 150px;
+    }
+    
 
 
 .footer {
