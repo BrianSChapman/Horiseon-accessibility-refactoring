@@ -26,8 +26,8 @@ body {
 }
 
 .navigation {
-    list-style-type: none;
-    display:  
+    list-style-type: ;
+    display: inline-block 
     margin-left: 25px; color: #ffffff; font-size: 20px; text-align:right; 
 
 }
@@ -53,14 +53,13 @@ p {
    
 }
 
-
 #search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb; color: #ffffff; #search-engine-optimization img
-    max-height: 200px
+    max-height: 200px; 
 }
 
 #search-engine-optimization img {
@@ -77,9 +76,9 @@ p {
     font-size: 36px;
 }
 
-#float-right {
-    float: right;
-    margin-left: 25px;
+#search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 #online-reputation-management {
@@ -95,6 +94,16 @@ p {
     max-height: 200px;
 }
 
+#online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+#float-right {
+    float: right;
+    margin-left: 25px;
+}
+
 #social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -106,16 +115,6 @@ p {
 
 #social-media-marketing img {
     max-height: 200px;
-}
-
-#search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-#online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 #social-media-marketing h2 {
@@ -135,7 +134,7 @@ p {
 }
 
 #benefit-lead {
-    margin-bottom: 32px;
+    margin-bottom: 32px; h3 {}
     color: #ffffff;
 }
 
@@ -164,27 +163,25 @@ p {
     text-align: center;
 }
 
-.benefit-lead img {
+#benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
+#benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-cost img {
+#benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
-
-.footer {
+#foot {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
