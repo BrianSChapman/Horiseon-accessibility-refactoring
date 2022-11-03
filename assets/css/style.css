@@ -83,7 +83,7 @@ section {
     color: #ffffff;
 }
 /* All the structuring * styling for the Aside area */
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -104,33 +104,12 @@ section {
 .online-reputation-management img {
     max-height: 200px; float: right;
     margin-left: 25px;
-
-  
-aside {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
- } 
-  
-    #benefit-img {
+}
+    .benefit-images {
         display: block;
         margin: 10px auto;
         max-width: 150px;
     }
-    
-    .benefit-brand img {
-        display: block;
-        margin: 10px auto;
-        max-width: 150px;
-    }
-    
-    .benefit-cost img {
-        display: block;
-        margin: 10px auto;
-        max-width: 150px;
-    }
-    
-
 
 .footer {
     padding: 30px;
