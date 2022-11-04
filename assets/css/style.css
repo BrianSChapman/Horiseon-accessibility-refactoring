@@ -8,13 +8,17 @@ body {
     background-color: #d9dcd6;
 }
 /* Start of the header, rewritten to remove Divs & provide more clarity */
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+
 }
+
 /* Company name */
+
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -23,7 +27,9 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
+
 /* Styling for the Nav bar within the header */
+
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,33 +38,24 @@ body {
     font-size: 20px;
 }
 
-.header ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
+/* Stylings to the anchors and paragraphs tags throughout the header */
+
+header nav a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
+header nav p {
     font-size: 16px;
-}
-/* Formatting all h2 and h3 headings throughout page (Minus footer) */
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-
-}
-
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
 }
 
 /* Hero image ID being used for proper sizing and format on page */
@@ -83,19 +80,11 @@ article {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* All the structuring * styling for the Aside area */
 
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    position: relative;  
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd; margin-bottom: 32px;
-    color: #ffffff;
+article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+
 }
 
 /* Sizing & format for left-justified images in the main section */
@@ -108,13 +97,49 @@ article {
     max-height: 200px; float: right;
     margin-left: 25px;
 }
-/* This is the stylings for the images in the "Aside" section. */
-    .benefit-images {
-        display: block;
-        margin: 10px auto;
-        max-width: 150px;
-    }
-    /* This is the start of the footer */
+
+/* All the structuring and styling for the Aside area */
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd; margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-text {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+    
+/* This is the start of the footer */
 .footer {
     padding: 30px;
     clear: both;
