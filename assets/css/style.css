@@ -72,7 +72,7 @@ h3 {
 }
 
 /* All the structuring & styling for the central cards */
-section {
+article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -88,12 +88,14 @@ section {
 .benefits {
     margin-right: 20px;
     padding: 20px;
+    position: relative;  
     clear: both;
     float: right;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd; 
+    background-color: #2589bd; margin-bottom: 32px;
+    color: #ffffff;
 }
 
 /* Sizing & format for left-justified images in the main section */
@@ -106,14 +108,13 @@ section {
     max-height: 200px; float: right;
     margin-left: 25px;
 }
+/* This is the stylings for the images in the "Aside" section. */
     .benefit-images {
         display: block;
         margin: 10px auto;
         max-width: 150px;
     }
-    
-
-
+    /* This is the start of the footer */
 .footer {
     padding: 30px;
     clear: both;
