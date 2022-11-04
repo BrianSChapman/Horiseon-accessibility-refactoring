@@ -62,10 +62,11 @@ h3 {
 }
 
 /* Hero image ID being used for proper sizing and format on page */
-#hero {
+.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -83,7 +84,8 @@ section {
     color: #ffffff;
 }
 /* All the structuring * styling for the Aside area */
-aside {
+
+.benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -91,8 +93,7 @@ aside {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd; margin-bottom: 32px;
-    color: #ffffff;
+    background-color: #2589bd; 
 }
 
 /* Sizing & format for left-justified images in the main section */
@@ -110,6 +111,8 @@ aside {
         margin: 10px auto;
         max-width: 150px;
     }
+    
+
 
 .footer {
     padding: 30px;
